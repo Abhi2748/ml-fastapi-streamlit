@@ -4,7 +4,7 @@ import os
 
 API_URL = os.getenv("API_URL", "http://localhost:8000")
 
-st.title("🎢 Roller Coaster Speed Predictor")
+st.title("🎢 Roller Coaster Speed Predictor (v2)")
 st.write("Enter coaster details to predict speed (mph).")
 
 # Numeric inputs
